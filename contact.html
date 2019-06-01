@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>Parr Lawn and Landscaping, LLC</title>
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <title>Parr Lawn and Landscaping, LLC/ contact</title>
 </head>
 
 <body>
@@ -24,13 +24,13 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" id="about" href="#">About <span class="sr-only">(current)</span></a>
+              <a class="nav-link" id="about" href="index.html">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="about" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="about" href="contact.html">Contact</a>
+              <a class="nav-link" id="about" href="#">Contact</a>
             </li>
           </ul>
           <span class="navbar-text">
@@ -39,46 +39,35 @@
         </div>
       </nav>
     </nav>
-
-
-    <!--<header>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Welcome to Parr Lawn and Landscaping, LLC</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-      </div>
-    </header>-->
   </div>
 
   <br>
   <br>
   <br>
 
-  <div>
-    <section>
-      <div id="container2">
-        <h2>About Parr Lawn and Landscaping, LLC</h2>
-        <br>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nobis culpa maiores fugiat cupiditate, facere
-          delectus quo nostrum voluptatem, impedit, laborum repellat vitae repellendus atque! Eius aliquam expedita
-          ipsa
-          quidem.
-        </p>
-        <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, iste. Eveniet libero ipsum est
-          recusandae
-          laboriosam mollitia distinctio, quae magnam laborum inventore deleniti. Eum quaerat perspiciatis recusandae
-          praesentium. Sapiente, libero!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, consequatur atque pariatur, tempore
-          reiciendis incidunt amet ut necessitatibus optio esse recusandae corporis eligendi quis. Possimus blanditiis
-          repellat soluta commodi sunt.</p>
-      </div>
-    </section>
-  </div>
+  <div class="container">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" class="firstName1" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" class="lastName1" id="lname" name="lastname" placeholder="Your last name..">
 
-
+        <label for="pnumber">Phone Number</label>
+        <input tpye="number" class="phoneNumber1" id="number" name="number" placeholder="123-456-7890">
+    
+        <label for="email">Email</label>
+        <input tpye="email" class="email1"  id="uemail" name="Email" placeholder="YourEmail@whatever.com">
+    
+        <label for="subject">Comments</label>
+        <textarea id="subject" class="comments1" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+        <div class="status"></div>
+        <input type="submit" class="submit" value="Submit">
+    
+      </form>
+    </div>
 
 
 
@@ -98,6 +87,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <script src="assets/javascript/contact.js"></script>
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
